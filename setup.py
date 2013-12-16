@@ -20,5 +20,6 @@ setup(name='pydigger',
           'nose',
       ],
       test_suite='nose.collector',
+      scripts=['bin/pydigger'],
       zip_safe=False)
 
