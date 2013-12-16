@@ -1,2 +1,6 @@
 def run():
-    print("Hi from PyDigger")
+    print(hi())
+
+def hi():
+    return "Hi from PyDigger"
+

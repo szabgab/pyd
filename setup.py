@@ -16,5 +16,9 @@ setup(name='pydigger',
       requires=[
           'lawyerup',
       ],
+      tests_require=[
+          'nose',
+      ],
+      test_suite='nose.collector',
       zip_safe=False)
 
