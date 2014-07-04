@@ -2,3 +2,4 @@ build/
 dist/
 pydigger.egg-info/
 *.pyc
+*.swp
