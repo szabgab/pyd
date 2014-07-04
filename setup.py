@@ -14,7 +14,9 @@ setup(name='pydigger',
       license='MIT',
       packages=['pydigger'],
       requires=[
-          'lawyerup',
+          'urllib2',
+          'feedparser',
+          #'pkg_resources',
       ],
       tests_require=[
           'nose',
